@@ -15,13 +15,13 @@ int main()
 			break;
 		}
 		case (9):
-			cout<<"A";
-			break;
-		case (8):
 			cout<<"B";
 			break;
+		case (8):
+			cout<<"C";
+			break;
 		case 7:
-			cout<<"c"<<endl;
+			cout<<"D"<<endl;
 			break;
 		default:
 			cout<<"Fail";
