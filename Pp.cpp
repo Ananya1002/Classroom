@@ -1,23 +1,18 @@
 #include<bits/stdc++.h>
 #include <iostream>
 #include<stdio.h>
-using namespace std;
-int main(){
 
-int b,e,p;
-cin>>b>>e;
- p=power(b,e);
-cout<<p;
+#include <iostream> 
+using namespace std; 
+int main() 
+{ 
+    int n = 10; 
+    for (int i = 0; i < n; i++ ) 
+    { 
+        n++; 
+        continue; 
+        cout << n; 
+    } 
+    return 1; 
 }
-int power(int b int i);
-{
-	if(i==0)
-		return 1;
-	
-	if(i==1)
-		return n;
-	
-	else
-		return n*power(n,i-1);
-	
-}
+

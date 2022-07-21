@@ -1,15 +1,10 @@
 #include<bits/stdc++.h>
 #include <iostream>
 #include<stdio.h>
+#include<cmath>
 using namespace std;
-int main(){
 
-int b,e,p;
-cin>>b>>e;
- p=power(b,e);
-cout<<p;
-}
-int power(int b int i);
+int power(int i,int n)
 {
 	if(i==0)
 		return 1;
@@ -20,4 +15,10 @@ int power(int b int i);
 	else
 		return n*power(n,i-1);
 	
+}
+int main(){
+	int b,e,p;
+	cin>>b>>e;
+	p=power(b,e);
+	cout<<p;
 }

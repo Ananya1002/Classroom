@@ -3,21 +3,28 @@
 #include<stdio.h>
 using namespace std;
 
-float area(char a,int x,int y)
-{
-	if (a=='s');
-	    return (x*x);
-	else if (a=='r');
-		return (x*y);
-	else (a=='c');
-		return (3.14*x*x);
+int main(){
+	int area(int);
+	int area(int,int);
+	float area(float);
+	int s,l,b,r;
+	cout<<"Side of sqaure: ";
+	cin>>s;
+	cout<<"Length and breadth of rectangle: ";
+	cin>>l>>b;
+	cout<<"Radius of circle: ";
+	cin>>r;
+	cout<<"Area of square= "<<area(s)<<endl;
+	cout<<"Area of rectangle= "<<area(l,b)<<endl;
+	cout<<"Area of circle= "<<area(r)<<endl;
 }
-int main()
-{
-	cout<<"Calculate area of square";
-	area(s,2);
-	cout<<"Calculate area of rectangle";
-	area(r,2,3);
-	cout<<"Calculate area of circle";
-	area(c,5);
+int area(int s){
+	return(s*s);
 }
+int area(int l,int b){
+	return(l*b);
+}
+float area(float r){
+	return(3.14*r*r);
+}
+

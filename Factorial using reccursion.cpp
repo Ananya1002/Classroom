@@ -13,6 +13,7 @@ fact(int n)
 int main()
 {
 	int f,n;
+	cout<<"Enter the number: ";
 	cin >>n;
 	f=fact(n);
 	cout<<"Factorial of n is: "<<f;
