@@ -21,7 +21,7 @@ class complex{
 };
 int main(){
 	complex A(1,2), B(3,4),C;
-	-B;
+	
 	B.display();
 		return 0;
 }
